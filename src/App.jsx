@@ -30,7 +30,7 @@ const App = () => {
         <div className="flex items-center mb-4">
           <input
             type="text"
-            className="flex-grow p-2 border rounded-l-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className=" outline-none flex-grow p-2 border rounded-l-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             value={newTodo}
             onChange={(e) => setNewTodo(e.target.value)}
             placeholder="Add your todos.."
